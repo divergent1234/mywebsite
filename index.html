@@ -1,33 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Navkar Novelty</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Navkar Novelty</title>
+  <link rel="stylesheet" href="styles.css"> <!-- Link to CSS file -->
 </head>
 <body>
-    <h1>Welcome to Navkar Novelty!</h1>
-    <h2>Top 10 Products</h2>
-    <div class="product-list">
-        <!-- List of products -->
-        <div class="product">
-            <img src="1.png" alt="Product 1">
-            <p>Product 1</p>
-        </div>
-        <!-- Add more products similarly -->
-    </div>
-    <footer>
-        <a href="about.html" id="about">About Us</a>
-        <a href="contact.html" id="contact">Contact</a>
-    </footer>
-    <script>
-        document.querySelectorAll("a").forEach(link => {
-            link.addEventListener("click", (e) => {
-                e.preventDefault();
-                window.location.href = "/login.html"; // Redirect to login page
-            });
-        });
-    </script>
+
+  <div class="dashboard">
+    <h1 class="main-heading">Welcome to Navkar Novelty</h1>
+    <p class="sub-heading">A one stop for all Household Collections</p>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js"></script> <!-- Supabase JS SDK -->
+  <script src="app.js"></script> <!-- Link to your JavaScript file -->
+
 </body>
 </html>
